@@ -22,6 +22,7 @@
   /* --main-color:#5982f4; */
   --main-color:#0ef;
   
+  
 
   
 }
@@ -227,6 +228,12 @@ span{
   margin-bottom: 6rem;
   font-size: 5rem;
  }
+
+ .skills h1{
+  margin-right:auto;
+  font-size: 3rem;
+ }
+
 .skills{
   background: var(--snd-bg-color);
 }
@@ -256,6 +263,8 @@ span{
 }
 
 
+
+
 .skills-left .skill-bars .bar{
   width: 100%;
   height: 10px;
@@ -275,38 +284,46 @@ span{
 }
 
 .skill-bars .bar .html{
-  width: 30%;
-  animation: html 2s;
+  width: 80%;
+  animation: html 5s;
 }
 .skill-bars .bar .css{
-  width: 80%;
-  animation: css 3s;
+  width: 70%;
+  animation: css 4s;
 }
 
 .skill-bars .bar .javascript{
-  width: 70%;
-  animation: javascript 4s;
+  width: 50%;
+  animation: javascript 3s;
 }
-.skill-bars .bar .bootstrap{
-  width: 60%;
-  animation: bootstrap 5s;
+.skill-bars .bar .cplusplus{
+  width: 30%;
+  animation: cplusplus 2s;
+}
+.skill-bars .bar .flutter{
+  width: 05%;
+  animation: flutter 1s;
 }
 .skill-bars .bar .creativity{
   width: 90%;
-  animation: html 2s;
+  animation: html 5s;
 }
 .skill-bars .bar .communication{
-  width: 40%;
+  width: 50%;
   animation: css 3s;
 }
 
 .skill-bars .bar .problemsolving{
-  width: 71%;
+  width: 70%;
   animation: javascript 4s;
 }
 .skill-bars .bar .team{    
-  width: 75%;
-  animation: bootstrap 5s;
+  width: 80%;
+  animation: cplusplus 5s;
+}
+.skill-bars .bar .management{    
+  width: 85%;
+  animation: management 6s;
 }
 @keyframes html{
   0%{
@@ -340,7 +357,14 @@ span{
     width: 85%;
   }
 }
-
+@keyframes flutter{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
 
 
 
