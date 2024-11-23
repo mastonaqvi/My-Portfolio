@@ -301,8 +301,8 @@ span{
   animation: cplusplus 2s;
 }
 .skill-bars .bar .flutter{
-  width: 05%;
-  animation: flutter 1s;
+  width: 60%;
+  animation: flutter 3s;
 }
 .skill-bars .bar .creativity{
   width: 90%;
